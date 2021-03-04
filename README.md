@@ -6,6 +6,8 @@ This project demonstrates issues that can hopefully be addressed in Tulsi:
 
 `DemoProject.tulsiproj` and `DemoProject.tulsigen` artifacts have been committed to the repository to provide a baseline state from which to observe the file generation-related issues.
 
+This project was created to add context to the [bazelbuild/tulsi](https://github.com/bazelbuild/tulsi) Issue opened [here](https://github.com/bazelbuild/tulsi/issues/224).
+
 ---
 
 ## Setup
