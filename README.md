@@ -82,7 +82,7 @@ In order to fix this, we have to manually add paths to source file directories:
 **Note:** Repeated invocations of `make tulsiproj` reset this fix.
 
 ### Missing swift_test support
-Although Tulsi appears to handle [swift_library](https://github.com/bazelbuild/rules_swift/blob/9d472c1a0124a2f06ee234ce64fa174cba0637c9/swift/swift.bzl#L80) targets correctly, it fails to generate a Tulsi project for [swift_test](https://github.com/bazelbuild/rules_swift/blob/9d472c1a0124a2f06ee234ce64fa174cba0637c9/swift/swift.bzl#L81) targets. Here is the warning we receive:
+Although Tulsi appears to handle [swift_library](https://github.com/bazelbuild/rules_swift/blob/9d472c1a0124a2f06ee234ce64fa174cba0637c9/swift/swift.bzl#L80) targets correctly, it fails to generate a Tulsi project for [swift_test](https://github.com/bazelbuild/rules_swift/blob/9d472c1a0124a2f06ee234ce64fa174cba0637c9/swift/swift.bzl#L81) targets. Here is the warning we receive after executing `make tulsiproj_open`:
 ```
 [Error] Generate[FAIL]: 10.6267s Unsupported target type: swift_test (target //demo-target:DemoTargetTests)
 Xcode project generation failed
