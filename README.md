@@ -11,7 +11,7 @@ This project was created to add context to the [bazelbuild/tulsi](https://github
 ---
 
 ## Setup
-The `Makefile` contains a few commands to build and test targets, and generate a Tulsi project. Ensure that the `BAZEL_PATH` reflects the path to a `bazel` binary on your local machine.
+The `Makefile` contains a few commands to build and test targets, and generate a Tulsi project.
 
 ### Build
 Execute the following to build both demo targets:
