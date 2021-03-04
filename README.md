@@ -73,7 +73,9 @@ Using `make tulsiproj`, we observe that Tulsi produces a `.tulsigen` configurati
 In order to fix this, we have to manually add paths to source file directories:
 ```
 "sourceFilters" : [
-  "./..."
+  "demo-target",
+  "demo-target/Sources",
+  "demo-target/Tests"
 ]
 ```
 
