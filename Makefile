@@ -14,7 +14,7 @@ test:
 .PHONY: tulsiproj
 tulsiproj:
 	WORKSPACE_PATH=$$(bazelisk info workspace) ;\
-	BAZEL_PATH=/usr/local/bin/bazel ;\
+	BAZEL_PATH=$$(which bazelisk) ;\
 	bazelisk run @build_bazel_tulsi//:tulsi -- -- \
 			--create-tulsiproj DemoProject \
 			--outputfolder $$WORKSPACE_PATH/demo-target \
