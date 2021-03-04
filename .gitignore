@@ -1,0 +1,5 @@
+.DS_Store
+bazel-*
+*.xcodeproj
+*.tulsiconf-user
+tulsigen-*

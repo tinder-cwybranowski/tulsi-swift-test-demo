@@ -1,0 +1,2 @@
+build --apple_platform_type=macos
+build --incompatible_objc_compile_info_migration
